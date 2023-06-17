@@ -6,7 +6,7 @@ import Jobs from './Jobs'
 
 const HeaderNavigate = () => {
 
-    const [state, setState] = useState('')
+    const [state, setState] = useState(null)
     const [loading, setLoading] = useState()
     const navigate = useNavigate()
 
@@ -52,7 +52,8 @@ const HeaderNavigate = () => {
                     <div key={
                             item.id
                         }
-                        className=''>
+                        // className={`${state === item.name ? " bg-red-" : ""}`}
+                        >
                         <h2 className='text-[#6d6e71] font-bold font-Mulish md:text-base sm:text-sm text-xs cursor-pointer'
                             onClick={
                                 () => handleFeeds(item.name)
@@ -60,6 +61,7 @@ const HeaderNavigate = () => {
                             {
                             item ?. name
                         } </h2>
+                        <p className={`${state === item.name ? "h-[2px]  my- bg-gray-500 border-0 dark:bg-gray-700 transition delay-150 duration-300 ease-in-out" : ""}`}></p>
                     </div>
 
                 ))

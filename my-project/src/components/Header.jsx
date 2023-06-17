@@ -5,25 +5,25 @@ const Header = () => {
     let Links = [
         {
             name: "Home",
-            link: "/"
+        
         },
         {
             name: "Service",
-            link: "/"
+         
         },
         {
             name: "Resources",
-            link: "/"
+           
         },
         {
             name: "pricing",
-            link: "/"
+           
         }, {
             name: "Log in",
-            link: "/"
+           
         }, {
             name: "Sign up",
-            link: "/"
+            
         },
     ];
     let [open, setOpen] = useState(false);
@@ -31,15 +31,15 @@ const Header = () => {
     return (
         <>
 
-            <div className='s w-full fixed top-0 left-0 z-50'>
+            <div className='s w-full fixed top-0 left-0 z-50 font-Mulish'>
                 <div className='borde md:flex item-center justify-between  bg-white   md:px-20 px-3 pt-7'>
                     <div className='flex items-center '>
-                        <div className='font-bold lg:text-2xl md:text-xl cursor-pointer flex items-center text-[#374151]'>
+                        <div className='font-bold lg:text-2xl md:text-[14px] cursor-pointer flex items-center text-[#374151]'>
                             <span className='text-3xl text-indigo-600 mr-1 '>
 
                                 <ion-icon name="logo-ionic"></ion-icon>
                             </span>
-                            Untitled
+                            Blog Website
                         </div>
                         <div onClick={
                                 () => setOpen(!open)
@@ -53,9 +53,9 @@ const Header = () => {
                         <ul className={
                             `md:flex md:items-center md:pb-0
                               pb-12 absolute md:static bg-white md:z-auto z-[]
-                              left-0 w-full md:w-auto md:pl-0 pl-9 transition-all
+                              left-0 w-full md:w-auto md:pl-0 pl-9 transition-all 
                               duration-500 ease-in  ${
-                                open ? "top-20" : "top-[-490px]"
+                                open ? "top-16" : "top-[-490px]"
                             }`
                         }>
                             {
