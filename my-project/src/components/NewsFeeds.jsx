@@ -44,7 +44,7 @@ const NewsFeeds = () => {
                             </div>
                         </div>
                     </div>
-                    <h1 className='underline pt-5 font-Mulish font-extrabold text-xl'>UX Review Presentation</h1>
+                    <h1 className='underline pt-5 font-Mulish font-extrabold text-xl'>Best books on scaling your startup</h1>
                     <p className='font-Mulish pr-4 text-[#6d6e71] pt-2 md:text-base text-sm font-semibold'>Lorem ipsum dolor, sit amet Inventore, adipisicing elit. Inventore, ratione. Quod,</p>
                     <h4 className='pt-3 font-Mulish text-sm  flex items-center gap-2 font-semibold'>
                         Read Post
@@ -67,7 +67,7 @@ const NewsFeeds = () => {
                             </div>
                         </div>
                     </div>
-                    <h1 className='underline pt-5 font-Mulish font-extrabold text-xl'>UX Review Presentation</h1>
+                    <h1 className='underline pt-5 font-Mulish font-extrabold text-xl'>How collaboration makes us better designers </h1>
                     <p className='font-Mulish pr-4 text-[#6d6e71] pt-2 md:text-base text-sm font-semibold'>Lorem ipsum dolor, sit amet Inventore, adipisicing elit. Inventore, ratione. Quod,</p>
                     <h4 className='pt-3 font-Mulish text-sm  flex items-center gap-2 font-semibold'>
                         Read Post
@@ -90,7 +90,7 @@ const NewsFeeds = () => {
                             </div>
                         </div>
                     </div>
-                    <h1 className='underline pt-5 font-Mulish font-extrabold text-xl'>UX Review Presentation</h1>
+                    <h1 className='underline pt-5 font-Mulish font-extrabold text-xl'>Building your Api stack</h1>
                     <p className='font-Mulish pr-4 text-[#6d6e71] pt-2 md:text-base text-sm font-semibold'>Lorem ipsum dolor, sit amet Inventore, adipisicing elit. Inventore, ratione. Quod,</p>
                     <h4 className='pt-3 font-Mulish text-sm  flex items-center gap-2 font-semibold'>
                         Read Post
@@ -113,7 +113,7 @@ const NewsFeeds = () => {
                             </div>
                         </div>
                     </div>
-                    <h1 className='underline pt-5 font-Mulish font-extrabold text-xl'>UX Review Presentation</h1>
+                    <h1 className='underline pt-5 font-Mulish font-extrabold text-xl'>Bill Walsh leadership lessons</h1>
                     <p className='font-Mulish pr-4 text-[#6d6e71] pt-2 md:text-base text-sm font-semibold'>Lorem ipsum dolor, sit amet Inventore, adipisicing elit. Inventore, ratione. Quod,</p>
                     <h4 className='pt-3 font-Mulish text-sm  flex items-center gap-2 font-semibold'>
                         Read Post
@@ -136,7 +136,7 @@ const NewsFeeds = () => {
                             </div>
                         </div>
                     </div>
-                    <h1 className='underline pt-5 font-Mulish font-extrabold text-xl'>UX Review Presentation</h1>
+                    <h1 className='underline pt-5 font-Mulish font-extrabold text-xl'>PM mental models</h1>
                     <p className='font-Mulish pr-4 text-[#6d6e71] pt-2 md:text-base text-sm font-semibold'>Lorem ipsum dolor, sit amet Inventore, adipisicing elit. Inventore, ratione. Quod,</p>
                     <h4 className='pt-3 font-Mulish text-sm  flex items-center gap-2 font-semibold'>
                         Read Post
